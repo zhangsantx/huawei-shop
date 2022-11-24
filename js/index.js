@@ -11,7 +11,6 @@
 
   // 返回顶部
   goBack.onclick = () => {
-    console.log(123)
     topContent.scrollIntoView({
       behavior: 'smooth'
     })
